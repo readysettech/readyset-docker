@@ -16,3 +16,5 @@ ENV STANDALONE=1 \
     QUERY_LOG_AD_HOC=1 \
     DB_DIR=/opt/readyset \
     DEPLOYMENT_ENV=docker \
+    USERNAME=${DB_USERNAME} \
+    PASSWORD=${DB_PASSWORD}
